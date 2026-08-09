@@ -1,4 +1,4 @@
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! I'm Matt Circelli, a Bilingual Space Engineering graduate with over 5 years of experience having architected highly available backend test suites and infrastructure, Python-based GIS processing suites and designing many systems usings Model-Based System Engineering Design. I have proven expertise maintaining Linux systems, deploying containerized microservices, developing and using REST APIs in event-driven architectures and testing Web and Desktop applications via automated testing. CGP-certified with active Secret clearances.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 

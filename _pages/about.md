@@ -27,8 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! I'm Matt Circelli, a Bilingual Space Engineering graduate with over 5 years of experience having architected highly available backend test suites and infrastructure, Python-based GIS processing suites and designing systems usings Model-Based System Engineering Design. I have proven expertise maintaining Linux systems, deploying containerized microservices, developing and using REST APIs in event-driven architectures and testing Web and Desktop applications via automated testing. CGP-certified with active Secret clearances.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My `career experience` includes 4 years at Leonardo Canada Inc, an Electronic Warfare-focused defence firm owned by the global defence giant Leonardo SpA, where I worked first as a Systems Engineer before moving to a V&V Lead position. I additionally worked at C-CORE, a space research and development company, as a Software Developer for 2 years. Learn more.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am both a space and general tech enthusiast through and through, evidenced by my numerous `relevant projects` which have allowed me to learn many concepts outside my professional career.
