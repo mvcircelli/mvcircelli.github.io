@@ -8,12 +8,15 @@ category: work
 tags: [Systems Engineering, V&V, Space Engineering]
 ---
 
+## At a glance
+- **Roles**: Systems Engineer, Electrical Engineer, V&V Engineer
+- **Timeline**: Sep 2019 - Aug 2023
+- **Skills**: Requirements Management, Assembly Integration and Test (AIT), Circuit Diagrams and Design, System Diagrams, Stakeholder Meetings
+
+### Summary
 It is a rare privilege to be part of a satellite mission from its initial whiteboard concepts all the way to a successful orbital launch. It is even rarer when that entire lifecycle is driven by a team of university students. 
 
-The ESSENCE CubeSat mission was exactly that: a fully student-led space project that demanded professional-grade engineering, rigorous testing, and uncompromising project management to design a working satellite and launch it into space within 2 years.
-
-## The Mission & The Challenge
-ESSENCE was a 3U CubeSat planned to be in orbital operations for 2 years. While in orbit, it took images of ice melt in northern communities using an earth observation payload designed by Canadensys. It additionally had a secondary payload in the form of an ADCS experiment which tested a hybrid ADCS strategy of using reaction wheels and magnetorquers. It also tested space worthiness of off the shelf components such as a Raspberry Pi Zero and an Arduino Uno by using them in some satellite subsystems.
+The ESSENCE CubeSat mission was exactly that: a fully student-led space project that demanded professional-grade engineering, rigorous testing, and uncompromising project management to design a working satellite and launch it into space within 4 years.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -29,18 +32,40 @@ ESSENCE was a 3U CubeSat planned to be in orbital operations for 2 years. While 
 <div class="caption">
     On the left, the ESSENCE Mission Overview Diagram. Middle, the ESSENCE satellite poses for a photo at the Canadian Space Agency. Right, the final ESSENCE - NanoRacks Integration Test, AKA "the fit test".
 </div>
+
+## The Mission & The Challenge
+ESSENCE was a 3U CubeSat planned to be in orbital operations for 2 years. While in orbit, it took images of ice melt in northern communities using an earth observation payload designed by Canadensys. It additionally had a secondary payload in the form of an ADCS experiment which tested a hybrid ADCS strategy of using reaction wheels and magnetorquers. It also tested space worthiness of off the shelf components such as a Raspberry Pi Zero and an Arduino Uno by using them in some satellite subsystems.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/essence_team_photo.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    The ESSENCE team, just before COVID lockdown. This moment was later featured by the <a href="https://x.com/csa_asc/status/1365330116977389573?s=20">Canadian Space Agency</a>. Yours truly front and center!
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Technical Contributions
+### Systems Engineering
+I initially joined the project as a Systems Engineer. I managed a complex, mission critical requirements matrix across multiple major space organizations and payload partners. To ensure strict cross-agency compliance, I frequently presented to these stakeholders during formal Waterfall design reviews:
+#### SpaceX
+Dictated the CubeSat's launch survivability constraints. This included strict vibration tolerances, payload power restrictions during transit, and requirements for the physical placement of the Remove Before Flight (RBF) pin.
+#### NanoRacks
+NanoRacks operates the NanoRacks CubeSat Deployer (NRCSD) on the International Space Station (ISS), the Canadian Space Agency's (CSA) chosen orbital insertion method for the project. They governed our deployment constraints, demanding strict dimensional compliance to fit the deployer and mandating a strict 30-minute power-on delay post-deployment that *had* to be hardware-driven, bypassing any software timers.
+#### NASA and CSA
+Enforced launch site safety protocols for the Cape Canaveral launch facility, as well as end-of-life orbital debris mitigation and deorbiting regulations.
+#### Canadensys
+Supplied the primary Earth imaging payload. They provided operational constraints including power budgets, Attitude Determination and Control System (ADCS) pointing accuracy, and downlink bandwidth requirements necessary for successful image capture and transmission.
+#### Toronto Metropolitan University (formerly Ryerson University)
+Provided a secondary ADCS experiment payload. They defined system-level operational requirements for the experiment, including strict mass and power allocations.
+
+Requirements Management, managing customer requirements from 3 different agencies: NASA, CSA,  NanoRacks, SpaceX. SpaceX provided launch requirements such as vibration tolerances, Payload power rules, RBF pin location, etc. NanoRacks provided additional launch requirements as the cubesat was to be launched from the NanoRacks Cubesat Deployer on the International Space Station, this included cubesat size requirements - it had to fit in the launcher, power-on procedure requirements: Must power on no sooner than 30 minutes after being launched from the deployer, and could not be a onboard computer software based timer. NASA provided additional launch requirements for use of the Cape Canaveral launch site and deorbiting requirements through the Canadian Space Agency.
+
+### V&V Engineering
+Assembly, Integration and Test procedures: Created the Assembly, INtegration and Test procedures for all satellite systems and subsystems. Outlined procedures for the vibration test at CSA's David Florida Lab (later replaced by a private lab due to COVID). Designed test for NanoRacks requirements called the 'fit test', involving machining a case the same dimensions as the NanoRacks launcher, and fitting the cubesat into the case to ensure the fit is as expected. Designed travel procedures for the cubesat to travel from Toronto to Ottawa for the vibration test, then Toronto to Cape Canaveral for launch.
+
+### Electrical Engineering
+Drafted numerous PCB drawings in KiCAD, connectivity diagrams for an Arduino Uno and a Raspberry Pi Zero, a 30-minute timer using ICs, an RBF pin circuit.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
